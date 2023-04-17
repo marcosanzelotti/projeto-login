@@ -5,3 +5,40 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+main {
+    background-color: white;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div h1 {
+    text-align: center;
+}
+
+div#imagem {
+    background-image: url(../imagens/cidade.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
