@@ -10,29 +10,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: #5f2c82;
+    font-family: 'Zilla Slab', serif;
 }
 
 main {
-    background-color: white;
+    background-color: #5f2c82;
     position: relative;
     width: 100vw;
     height: 100vh;
 }
 
+section {
+    background-color: white;
+    border-radius: 20px;
+}
+
 section#login {
     position: absolute;
-    width: 300px;
+    width: 250px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 div h1 {
+    margin: 10px;
     text-align: center;
+}
+
+div p {
+    padding: 10px;
+    font-size: 0.9em;
 }
 
 div#imagem {
@@ -41,4 +49,11 @@ div#imagem {
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+input#botao {
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
 }
