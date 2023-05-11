@@ -1,47 +1,58 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media  screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
 
     section#login {
-        width: 90vw;
-        height: 50vh;
+        width: 80vw;
     }
 
     div#imagem {
         float: left;
-        width: 50%;
+        width: 30%;
         height: 100%;
     }
 
     div#formulario {
         float: right;
-        width: 50%;
+        width: 70%;
     }
 }
 
-@media screen and (min-width: 992px) {
-
+@media  screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
     }
 
     section#login {
-        width: 990px;
-        height: 50vh;
+        width: 950px;
     }
-
     div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
 }
