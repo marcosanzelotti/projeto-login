@@ -52,4 +52,10 @@ div#imagem {
 div#formulario {
     display: block;
     padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario p {
+    font-size: .8em;
 }
