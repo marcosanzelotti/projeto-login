@@ -16,13 +16,14 @@ Grandes telas: acima de 1200px
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media  screen and (min-width: 768px) and (max-width: 992px) {
+@media  screen and (min-width: 768px) and (max-width: 992px) { /* CONFIG PARA TABLET */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     div#imagem {
@@ -37,13 +38,14 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media  screen and (min-width: 992px) {
+@media  screen and (min-width: 992px) { /* CONFIG PARA TELAS GRANDES */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
         width: 950px;
+        height: 400px;
     }
     div#imagem {
         float: right;
@@ -62,5 +64,6 @@ Grandes telas: acima de 1200px
 
     div#formulario p {
         font-size: 1.2em;
+        margin: 20px 0;
     }
 }
